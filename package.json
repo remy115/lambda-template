@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_lambda_template-wrapper",
+  "version": "0.0.1",
+  "description": "NodeJS Lambda Template (Wrapper)",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "test": "mocha ./__tests__/*.test.js",
+    "test1": "mocha ./__tests__/order.test.js"
+  },
+  "author": "Remy Barros",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "mocha": "^6.2.0"
+  }
+}
