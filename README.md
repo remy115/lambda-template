@@ -2,4 +2,4 @@
 
 - With JWT
 - Some simple tests
-- Can be use outside lambda
+- Can be used outside lambda
